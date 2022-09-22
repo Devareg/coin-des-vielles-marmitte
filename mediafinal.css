@@ -1,0 +1,421 @@
+@media all and (min-width: 300px) and (max-width: 700px) {
+    body {
+        margin: 0;
+        margin-left: -22px;
+        margin-top: -13px;
+    }
+    .logo {
+        width: 40px;
+        margin-top: -50px;
+    }
+    .mens,
+    .men {
+        text-decoration: none;
+        font-size: 0.8vh;
+        margin-right: 5px;
+        color: black;
+        font-weight: 700;
+    }
+    .search-btn {
+        height: 2px;
+        width: 40px;
+        border-radius: 3px;
+        margin-top: 7px;
+        margin-left: -14px;
+    }
+    .panier {
+        margin-top: 2px;
+    }
+    .search-btn::placeholder {
+        font-size: 2.5vh;
+        size: 3vh;
+        padding-left: -10px;
+    }
+    .connect-btn {
+        margin-top: 3px;
+        background-color: green;
+        border: none;
+        border-radius: 10px;
+        width: 10vh;
+        height: 2vh;
+        color: white;
+        font-size: 1vh;
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    h1 {
+        font-size: 2.5vh;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    .plat_grand {
+        height: 130px;
+        padding-right: 20px;
+    }
+    .btn-nos-menu {
+        width: 10vh;
+        height: 3vh;
+        font-size: 1.5vh;
+        border-radius: 30px;
+        box-shadow: 0 2px 3px 2px #000;
+        margin-right: 30px;
+    }
+    .btn-reservation {
+        background-color: rgb(252, 252, 252);
+        color: black;
+        border: none;
+        width: 10vh;
+        height: 3vh;
+        font-size: 1.5vh;
+        border-radius: 30px;
+        box-shadow: 0 2px 3px 2px #000;
+    }
+    .mes-btn {
+        margin-left: 50px;
+        margin-top: -40px;
+        padding-top: 20px;
+    }
+    /* Ici débute la section 'NOS MENUS' */
+    h2 {
+        color: #E56E00;
+        font-size: 2vh;
+        margin-left: 45px;
+        font-family: Josefin Sans;
+        font-weight: 700;
+    }
+    .section-menu {
+        margin-top: 30px;
+    }
+    .slide {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .slideplat {
+        margin: 0 auto;
+        height: 12vh;
+        min-height: 5vh;
+        margin-left: -27px;
+    }
+    .mes-btn-slide {
+        height: 1.5vh;
+        padding-top: 65px;
+        margin-left: -53px;
+    }
+    .lienbtn {
+        margin-left: 100px;
+        margin-top: -0px;
+    }
+    .btn-plat-plus {
+        background-color: #E56E00;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        height: 2vh;
+        width: 35vh;
+        font-family: Josefin Sans;
+        font-size: 1.5vh;
+        margin-top: 20px;
+        margin-left: 8vh;
+    }
+    .lien-btn-plat-plus {
+        display: flex;
+        margin: 0 auto;
+        text-decoration: none;
+        padding-right: 10vh;
+    }
+    /* SECTION LIVRAISON */
+    .img-livraison {
+        height: 6vh;
+    }
+    .section-livraison {
+        min-width: 10vh;
+        font-family: Josefin Sans;
+    }
+    p,
+    .section-livraison {
+        font-size: 2vh;
+        margin-top: 15px;
+    }
+    /* Section des partenaires */
+    .section-partenaire {
+        background-color: rgb(255, 255, 255);
+        width: 57.8vh;
+        height: 12vh;
+    }
+    h3 {
+        justify-content: center;
+        font-size: 1.2vh;
+        font-family: 'Inter', sans-serif;
+        margin: 0vh 0 0 0vh;
+        text-align: center;
+        padding-top: 0.8vh;
+    }
+    .logo-partenaires {
+        margin-left: 13vh;
+    }
+    .img-type1 {
+        height: 2vh;
+        margin-right: 3vh;
+    }
+    .img-type2 {
+        height: 1.5vh;
+        margin-right: 2vh;
+    }
+    /* SECTION FORMULAIRE A REMPLIR */
+    .form-background {
+        background-color: #E56E00;
+        width: 57.8vh;
+        height: 40vh;
+        /* margin: 0 auto; */
+    }
+    form h2 {
+        color: rgb(255, 255, 255);
+        font-size: 1.5vh;
+    }
+    form {
+        display: flex;
+        color: #ffffff;
+        font-family: Josefin Sans;
+        font-size: 1vh;
+        margin-left: 13vh;
+    }
+    .input-box {
+        margin: 5px;
+    }
+    .input-box2 {
+        margin: 5px;
+    }
+    .input-box2 input {
+        height: 2vh;
+        width: 32vh;
+        border: none;
+        font-size: 2.5vh;
+        font-family: Josefin Sans;
+    }
+    .ligne1 {
+        display: flex;
+    }
+    .détails {
+        display: flex;
+    }
+    .ligne1 input {
+        height: 2vh;
+        width: 15.1vh;
+        border: none;
+        font-size: 2.5vh;
+        font-family: Josefin Sans;
+    }
+    form ::placeholder {
+        text-align: left;
+        font-size: 1vh;
+    }
+    .input-box3 {
+        margin: 5px;
+    }
+    .input-box3 textarea {
+        height: 10vh;
+        width: 32vh;
+        border: none;
+        font-size: 1vh;
+        font-family: Josefin Sans;
+    }
+    .btn-soumettre button {
+        font-family: Josefin Sans;
+        height: 2vh;
+        width: 10vh;
+        font-size: 1vh;
+        margin: 6px;
+        background-color: #ffffff;
+        border: none;
+    }
+    /* 
+SECTION LOCALISATION */
+    .localisation h2 {
+        font-size: 1.5vh;
+        color: #000;
+        margin-left: 19vh;
+        margin-top: 5vh;
+    }
+    iframe {
+        margin: ;
+        height: 30vh;
+        width: 40vh;
+        justify-content: center;
+    }
+    .localisation iframe {
+        margin: 0 auto;
+        border: none;
+        margin-left: 2vh;
+    }
+    /* AVIS CLIENTS */
+    .section-avis {
+        height: 95vh;
+    }
+    .les-avis {
+        display: flex;
+        justify-content: center;
+        margin-left: -5vh;
+    }
+    .avis-gauche {
+        margin: 0vh;
+        margin-left: 15vh;
+    }
+    .avis-droit {
+        margin: 0vh;
+        margin-top: 20vh;
+        margin-left: -44vh;
+    }
+    .section-avis h2 {
+        color: white;
+        margin-left: 11.5vh;
+        font-size: 1.5vh;
+    }
+    .section-avis nav textarea {
+        height: 0.5vh;
+        width: 10vh;
+        border-radius: 30px;
+        box-shadow: 0 1px 0px #000;
+        margin-top: 7px;
+        margin-right: 1.8vh;
+    }
+    .section-avis nav textarea,
+     ::placeholder {
+        font-size: 0.8vh;
+        text-align: left;
+        padding-bottom: 1vh;
+    }
+    .avis-backgrounds {
+        height: 18vh;
+        width: 44vh;
+        background-color: #ffffff;
+        border-radius: 20px;
+        margin-bottom: 23vh;
+        /* display: flex; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .avis-images {
+        height: 4vh;
+        margin: 6px;
+    }
+    .nom {
+        font-weight: 700;
+        font-size: 1.5vh;
+        margin-top: 10px;
+    }
+    section .avis-backgrounds p {
+        font-size: 2vh;
+        margin-left: -7vh;
+        padding-top: 5vh;
+    }
+    .date {
+        margin-right: 1vh;
+        margin-top: -5.5vh;
+        text-align: right;
+        font-weight: 700;
+    }
+    .avis-images2 {
+        height: 4vh;
+        margin: 6px;
+    }
+    /* SECTION RESEAUX SOCIAUX */
+    .social-medias {
+        margin-top: 0vh;
+        justify-content: center;
+        background-color: #000;
+        height: 4vh;
+    }
+    .icones-reseaux-sociaux {
+        margin-left: 12vh;
+    }
+    .icon-réseaux-sociaux_fcbook {
+        height: 2vh;
+        margin-bottom: 0.5vh;
+        /* margin-right: 8vh; */
+    }
+    .icon-réseaux-sociaux_insta {
+        height: 2.5vh;
+        margin-top: -5vh;
+        /* margin-right: 8vh; */
+    }
+    .icon-réseaux-sociaux_whatsapp {
+        height: 2.5vh;
+        margin-top: 1vh;
+    }
+    /* SECTION FOOTER */
+    footer {
+        display: flex;
+        margin-top: 0vh;
+        margin-top: -4vh;
+    }
+    footer h6 {
+        font-size: 1.2vh;
+        font-family: josefin sans;
+        margin-left: 12vh;
+    }
+    footer img {
+        height: 6vh;
+        margin-left: 11vh;
+        margin-top: -3vh;
+    }
+    .abonnement {
+        margin-top: 13vh;
+        position: ;
+        font-family: inter;
+        font-weight: 700;
+        font-size: 1vh;
+        margin-left: 1vh;
+    }
+    footer .input ::placeholder {
+        text-align: left;
+        font-size: 0.2vh;
+    }
+    footer input {
+        width: 7vh;
+        height: 1.5vh;
+    }
+    .elements-bas {
+        display: flex;
+    }
+    .besoin-aide {
+        font-size: 1vh;
+        font-weight: 700;
+        font-family: inter;
+        margin-top: 7vh;
+        margin-left: 0.3vh;
+    }
+    .coordonées {
+        font-family: inter;
+        font-weight: 400;
+        font-size: 1vh;
+        margin-top: 0.5vh;
+        margin-left: 0.3vh;
+    }
+    h4 {
+        margin-top: 13vh;
+        font-family: inter;
+        display: flex;
+        margin-left: 5vh;
+        font-size: 1vh;
+    }
+    .abonnement h4 {
+        font-family: inter;
+        margin-left: 0vh;
+        margin-top: 0vh;
+        font-size: 1vh;
+    }
+    .abonnement button {
+        background-color: black;
+        color: white;
+        margin-top: 1vh;
+        height: 2vh;
+        width: 7vh;
+        font-size: 1vh;
+    }
+    footer ::placeholder {
+        text-align: left;
+        font-size: 1vh;
+    }
+}
